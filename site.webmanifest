@@ -1,12 +1,20 @@
 {
   "short_name": "Booth Project",
   "name": "The Booth Project",
-  "icons": [{
-    "src": "images/icon.png",
-    "type": "image/png",
-    "sizes": "192x192"
-  }],
+  "icons": [
+    {
+      "src": "images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
   "start_url": "/?utm_source=homescreen",
   "background_color": "#fafafa",
-  "theme_color": "#b82d28"
+  "theme_color": "#b82d28",
+  "display": "standalone"
 }
